@@ -39,7 +39,7 @@ calculateButton.addEventListener("click", calculateClick);
 window.addEventListener("keyup", e => {
 	e.preventDefault();
   if(e.keyCode === 13) {
-  	console.log("Enter button pressed and calculation done");
+  	// console.log("Enter button pressed and calculation done");
     calculateClick();
     clearInputFields()
   }
